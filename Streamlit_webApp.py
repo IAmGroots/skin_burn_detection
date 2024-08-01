@@ -52,8 +52,8 @@ def main():
         # Get prediction
         prediction = model.predict(img)
         max_prob = np.max(prediction)
-        st.write("Real Prediction: ", prediction)
-        st.write("Max Prediction: ", max_prob)
+        # st.write("Real Prediction: ", prediction)
+        # st.write("Max Prediction: ", max_prob)
 
         # Get class name
         class_name = CLASSES[np.argmax(prediction)]
