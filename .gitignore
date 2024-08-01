@@ -1,0 +1,13 @@
+/data
+/.env
+1st.png
+2nd.png
+3rd.png
+AccVal_acc.png
+LossVal_loss.png
+my_model.h5
+README.md
+requirements.txt
+skin burn.py
+skin_burn.ipynb
+test.py
